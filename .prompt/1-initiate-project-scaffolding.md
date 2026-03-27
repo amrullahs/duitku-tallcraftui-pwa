@@ -1,6 +1,6 @@
 Baca semua perintah lalu rencanakan urutan eksekusinya dan lakukan eksekusi.
 Inisiasi project Laravel v12 baru dengan nama 'duitku-tallcraftui-pwa' dengan PWA Support menggunakan livewire starter-kit, SQLite sebagai database server dan IndexedDB di sisi client. Gunakan 'temp-app-install' sebagai temporary folder install.
-Install laravel/boost mcp untuk membantu dalam pengembangan.
+**Install laravel/boost** mcp untuk membantu dalam pengembangan.
 Stack: Livewire v4.x (Volt Class-based),  Alpine.js, Tailwind CSS 4.x. 
 Features: Dark mode support, Konfigurasi `wire:navigate` pada layout utama sebagai default.
 Library Tambahan: Install Blade Heroicons, ApexCharts, dan TallCraft UI.
@@ -10,3 +10,4 @@ Buat `resources/js/db.js` untuk inisialisasi Dexie.js (IndexedDB).
 Daftarkan Service Worker di `app.js`.
 Tambahkan logic `isOffline` di Alpine global store.
 Sesuai rule @design-system-pwa, pastikan layout utama mendukung `wire:navigate` dan memiliki meta tags PWA.
+lakukan konfirmasi package laravel/boost terinstall.

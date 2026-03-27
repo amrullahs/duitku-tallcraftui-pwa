@@ -1,0 +1,16 @@
+@import './tallcraftui.css';
+@plugin '@tailwindcss/forms';
+@source '../../vendor/developermithu/tallcraftui/src/**/*.php';
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: var(--color-indigo-600);
+  --color-secondary: var(--color-violet-600);
+  --color-success: var(--color-emerald-600);
+  --color-danger: var(--color-rose-600);
+}
+
+@variant dark (&:where(.dark, .dark *));
+
+/* Custom TallCraft UI specific styles if any */
