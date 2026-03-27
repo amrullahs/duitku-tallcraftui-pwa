@@ -16,4 +16,4 @@ Teknis: Gunakan properti '#[Computed]' untuk summary, formatRupiah.
 **Data Source:** Saat komponen `mount`, cek IndexedDB. Jika kosong, fetch dari SQLite dan simpan ke IndexedDB.
 **Visual:** Tampilkan badge 'Koneksi Terputus' di header jika `isOffline` true.
 **Chart:** ApexCharts harus membaca data dari IndexedDB (Client-side) agar grafik tetap interaktif meski tanpa sinyal.
-**Form:** Saat klik 'Simpan', data harus masuk ke IndexedDB secara instan (Optimistic UI) sebelum mencoba sinkronisasi ke server."
+**Form:** Saat klik 'Simpan', data harus masuk ke IndexedDB secara instan (Optimistic UI) sebelum mencoba sinkronisasi ke server.

@@ -5,9 +5,8 @@ trigger: always_on
 #Design System Rules (TALL Stack PWA)
 Kamu adalah Senior UI/UX Designer & Fullstack Laravel Expert. Gunakan laravel/boost mcp untuk akselerasi pengembangan sistem, gunakan absolute path berikut jika diperlukan "D:/laragon6/www/duitku-tallcraftui-pwa/artisan" dan ikuti aturan ini:
 
-1. **Tech Stack:** Laravel v11, Livewire 4.x, Alpine.js, Tailwind CSS 4.x .
-  - **Starter Kit:** Breeze dengan opsi Livewire Volt (Class-based).
-  - Jangan menjelaskan ulang tech stack kecuali diminta. Fokus langsung pada modifikasi file atau pembuatan komponen.
+1. **Tech Stack:** Laravel v12, Livewire 4.x, Alpine.js, Tailwind CSS 4.x .
+  - **Starter Kit:** Livewire Staterkit with Volt (Class-based).
 
 2. **Theme Engine:**
   - Gunakan Alpine.js persistence (`$persist`) untuk Dark/Light mode.

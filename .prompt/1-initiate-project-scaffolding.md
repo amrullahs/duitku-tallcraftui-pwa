@@ -1,5 +1,5 @@
 Baca semua perintah lalu rencanakan urutan eksekusinya dan lakukan eksekusi.
-Inisiasi project Laravel v11 baru dengan nama 'duitku-tallcraftui-pwa' dengan PWA Support menggunakan Laravel Breeze dan SQLite sebagai database. Gunakan 'temp-app-install' sebagai temporary folder install.
+Inisiasi project Laravel v12 baru dengan nama 'duitku-tallcraftui-pwa' dengan PWA Support menggunakan livewire starter-kit, SQLite sebagai database server dan IndexedDB di sisi client. Gunakan 'temp-app-install' sebagai temporary folder install.
 Install laravel/boost mcp untuk membantu dalam pengembangan.
 Stack: Livewire v4.x (Volt Class-based),  Alpine.js, Tailwind CSS 4.x. 
 Features: Dark mode support, Konfigurasi `wire:navigate` pada layout utama sebagai default.
@@ -9,4 +9,4 @@ Install vite-plugin-pwa, Setup Vite PWA plugin di `vite.config.js`.
 Buat `resources/js/db.js` untuk inisialisasi Dexie.js (IndexedDB).
 Daftarkan Service Worker di `app.js`.
 Tambahkan logic `isOffline` di Alpine global store.
-Sesuai rule @design-system-pwa, pastikan layout utama mendukung `wire:navigate` dan memiliki meta tags PWA."
+Sesuai rule @design-system-pwa, pastikan layout utama mendukung `wire:navigate` dan memiliki meta tags PWA.

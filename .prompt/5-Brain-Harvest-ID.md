@@ -1,4 +1,4 @@
-Tinjau percakapan dan perubahan kode terakhir. Identifikasi pola, keputusan, atau solusi yang harus disimpan secara permanen di folder `.agent/`.
+Tinjau percakapan dan perubahan kode terakhir. Identifikasi pola, keputusan, atau solusi yang harus disimpan secara permanen di folder `.agents/`.
 
 Identifikasi berdasarkan 6 kategori:
 1. **Rules** — Batasan atau aturan yang harus dipatuhi secara konsisten.
@@ -12,7 +12,7 @@ Tampilkan setiap temuan dalam format berikut:
 ---
 **Category:** [one of the 6 above]
 **Status:** 🆕 New File | ✏️ Update to `[existing file path]`
-**File Path:** `.agent/rules/[slug]/RULE.md` or `.agent/skills/[slug]/SKILL.md`
+**File Path:** `.agents/rules/[slug]/RULE.md` or `.agents/skills/[slug]/SKILL.md`
 **Content:**
 ```markdown
 ---
@@ -28,3 +28,4 @@ Jika tidak ada pola yang signifikan untuk disimpan, informasikan bahwa tidak ada
 Ringkasan di akhir:
   - Total temuan per kategori.
   - Daftar file baru vs file yang diperbarui.
+Lakukan "inventory check" terhadap file yang sudah dibuat pada folder `.agents/`.

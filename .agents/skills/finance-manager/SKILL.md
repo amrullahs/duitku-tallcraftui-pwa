@@ -6,7 +6,7 @@ description: Mengelola logika data keuangan.
 Gunakan skill ini untuk membuat Logic Component (Livewire v4 Component) atau Alpine Store.
 
 ## Technical Implementation Rules:
-1. **Architecture:** Bangun menggunakan **Livewire 4 Volt (Class-based)** dengan integrasi **Alpine.js Store**.
+1. **Architecture:** Bangun menggunakan **Livewire v4 Volt (Class-based)** dengan integrasi **Alpine.js Store**.
 2. **Schema:**
    - `id`: UUID (`Str::uuid()`), 
    - `type`: income/expense, 
