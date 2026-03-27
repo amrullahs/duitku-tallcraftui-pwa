@@ -10,3 +10,4 @@ Buat `resources/js/db.js` untuk inisialisasi Dexie.js (IndexedDB).
 Daftarkan Service Worker di `app.js`.
 Tambahkan logic `isOffline` di Alpine global store.
 Sesuai rule @design-system-pwa, pastikan layout utama mendukung `wire:navigate` dan memiliki meta tags PWA.
+Pastikan dan konfirmasi package laravel/boost terinstall dan bisa update.
